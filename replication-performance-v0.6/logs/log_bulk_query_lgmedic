@@ -1,0 +1,28 @@
+$ node bulk.js 
+Remote db : http://admin:pass@localhost:5984/lgmedic-copy
+Ddoc : medic
+View : doc_by_place
+Start : 1452541287995 - 11:41:27.995
+Querying : http://admin:pass@localhost:5984/lgmedic-copy/_design/medic/_view/doc_by_place?key="1D43EDB3-E2AB-0ABB-85DA-AB16479CF632"
+Querying : http://admin:pass@localhost:5984/lgmedic-copy/_design/medic/_view/doc_by_place?key="ALL"
+getting org.couchdb.user:demo
+Local doc count : 0
+View query : 80 ms
+Doc Ids for 1D43EDB3-E2AB-0ABB-85DA-AB16479CF632 : 1D43EDB3-E2AB-0ABB-85DA-AB16479CF632,50F88502-5D0F-7090-BAA6-F4980895425A,7AEA1B78-DF23-732C-B858-4A7AE2333FAB
+View query : 96 ms
+Doc Ids for ALL : form:assessment,form:assessment.xlsx,form:assessment_follow_up,form:contact:clinic:create,form:contact:clinic:edit,form:contact:person:create,form:contact:person:edit,form:difference-in-months,form:family_survey,form:postnatal_care,form:pregnancy,form:pregnancy_referral_follow_up,form:pregnancy_visit,form:test_order,resources
+
+
+Inserted!  : 1452541288100 - 11:41:28.100
+Total time : 105 ms
+Local doc count : 1
+
+
+Inserted!  : 1452541288123 - 11:41:28.123
+Total time : 128 ms
+Local doc count : 4
+
+
+Inserted!  : 1452541288201 - 11:41:28.201
+Total time : 206 ms
+Local doc count : 19

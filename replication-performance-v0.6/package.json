@@ -1,0 +1,24 @@
+{
+  "name": "replication_tests",
+  "version": "1.0.0",
+  "description": "Performance test of filtered replication vs view queries.",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "pouchdb": "^5.1.0",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medic/medic-experiments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medic/medic-experiments/issues"
+  },
+  "homepage": "https://github.com/medic/medic-experiments#readme"
+}

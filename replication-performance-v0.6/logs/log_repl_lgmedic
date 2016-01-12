@@ -1,0 +1,1190 @@
+$ node repl.js 
+  pouchdb:adapter Picked adapter: leveldb +0ms
+  pouchdb:adapter Picked adapter: http +23ms
+Remote db : http://admin:pass@localhost:5984/lgmedic-copy
+Ddoc : medic
+Filter : doc_by_place
+UserId : 1D43EDB3-E2AB-0ABB-85DA-AB16479CF632
+Start : 1452551289578 - 14:28:9.578
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +4ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +52ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +4ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1m allDocs { keys: [ '1D43EDB3-E2AB-0ABB-85DA-AB16479CF632' ],
+  include_docs: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +22ms allDocs success { total_rows: 6886,
+  offset: 0,
+  rows: 
+   [ { id: '1D43EDB3-E2AB-0ABB-85DA-AB16479CF632',
+       key: '1D43EDB3-E2AB-0ABB-85DA-AB16479CF632',
+       value: [Object],
+       doc: [Object] } ] }
+replication : paused
+Local doc count : 1
+so far : 68693 ms (1+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +338ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +5ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1m get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +15ms get error { [not_found: missing]
+  status: 404,
+  name: 'not_found',
+  message: 'missing',
+  error: true,
+  reason: 'missing' }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +23ms allDocs { keys: [ '50F88502-5D0F-7090-BAA6-F4980895425A' ],
+  include_docs: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +9ms allDocs success { total_rows: 6886,
+  offset: 0,
+  rows: 
+   [ { id: '50F88502-5D0F-7090-BAA6-F4980895425A',
+       key: '50F88502-5D0F-7090-BAA6-F4980895425A',
+       value: [Object],
+       doc: [Object] } ] }
+replication : paused
+Local doc count : 2
+so far : 140674 ms (2+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +455ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +8ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +12ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-1',
+  session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42',
+  history: 
+   [ { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 943 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +59s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-1',
+  session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42',
+  history: 
+   [ { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 943 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +25ms bulkGet { docs: 
+   [ { id: 'org.couchdb.user:admin',
+       rev: '6-87bd73be48c75dcf289a9ff08998806e' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7ms get org.couchdb.user:admin { open_revs: [ '6-87bd73be48c75dcf289a9ff08998806e' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +9ms get success [ { ok: 
+     { _id: 'org.couchdb.user:admin',
+       _rev: '6-87bd73be48c75dcf289a9ff08998806e',
+       name: 'admin',
+       known: true,
+       language: 'en',
+       type: 'user-settings',
+       phone: '+2868917046',
+       contact_id: 'eeb17d6d-5dde-c2c0-62c4a1a0ca17fd16',
+       facility_id: '6850E77F-5FFC-9B01-8D5B-3D6E33DFA73E',
+       _revisions: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'org.couchdb.user:admin', docs: [Object] } ] }
+replication : paused
+Local doc count : 3
+so far : 200455 ms (3+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +2s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +15ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-2',
+  session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE',
+  history: 
+   [ { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 1122 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +56s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-2',
+  session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE',
+  history: 
+   [ { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 1122 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +18ms bulkGet { docs: [ { id: 'resources', rev: '53-57565c3cbb1168dc2c6f3338828398f0' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get resources { open_revs: [ '53-57565c3cbb1168dc2c6f3338828398f0' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +176ms get success [ { ok: 
+     { _id: 'resources',
+       _rev: '53-57565c3cbb1168dc2c6f3338828398f0',
+       resources: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'resources', docs: [Object] } ] }
+replication : paused
+Local doc count : 4
+so far : 258478 ms (4+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +329ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +9ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +9ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-3',
+  session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0',
+  history: 
+   [ { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 2398 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +45s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +18ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-3',
+  session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0',
+  history: 
+   [ { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 2398 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +26ms allDocs { keys: [ '7AEA1B78-DF23-732C-B858-4A7AE2333FAB' ],
+  include_docs: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10ms allDocs success { total_rows: 6886,
+  offset: 0,
+  rows: 
+   [ { id: '7AEA1B78-DF23-732C-B858-4A7AE2333FAB',
+       key: '7AEA1B78-DF23-732C-B858-4A7AE2333FAB',
+       value: [Object],
+       doc: [Object] } ] }
+replication : paused
+Local doc count : 5
+so far : 303953 ms (5+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +2s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +2ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-4',
+  session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A',
+  history: 
+   [ { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 2429 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +46s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +29ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-4',
+  session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A',
+  history: 
+   [ { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 2429 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms bulkGet { docs: 
+   [ { id: 'form:difference-in-months',
+       rev: '5-9c05ffcf7de774d27afa1abcf3b55725' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:difference-in-months { open_revs: [ '5-9c05ffcf7de774d27afa1abcf3b55725' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +17ms get success [ { ok: 
+     { _id: 'form:difference-in-months',
+       _rev: '5-9c05ffcf7de774d27afa1abcf3b55725',
+       type: 'form',
+       title: 'Test: difference-in-months',
+       internalId: 'difference-in-months',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'form:difference-in-months', docs: [Object] } ] }
+replication : paused
+Local doc count : 6
+so far : 351094 ms (5+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +77ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +9ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-5',
+  session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449',
+  history: 
+   [ { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 2513 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +53s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +29ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-5',
+  session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449',
+  history: 
+   [ { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' },
+     { last_seq: 943,
+       session_id: '24A88B97-D5CA-04FA-850E-3BF2C4C2AF42' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 2513 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +54ms bulkGet { docs: 
+   [ { id: 'form:pregnancy_follow_up',
+       rev: '250-caba5ac3255359de54201e0c1e5dde15' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:pregnancy_follow_up { open_revs: [ '250-caba5ac3255359de54201e0c1e5dde15' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +48ms get success [ { ok: 
+     { _id: 'form:pregnancy_follow_up',
+       _rev: '250-caba5ac3255359de54201e0c1e5dde15',
+       type: 'form',
+       title: 'Pregnancy Follow-Up',
+       internalId: 'pregnancy_follow_up',
+       context: [Object],
+       _deleted: true,
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:pregnancy_follow_up', docs: [Object] } ] }
+replication : paused
+Local doc count : 6
+so far : 404002 ms (6+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +2s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +11ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +16ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-6',
+  session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40',
+  history: 
+   [ { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 5223 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +22s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +17ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-6',
+  session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40',
+  history: 
+   [ { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' },
+     { last_seq: 1122,
+       session_id: 'F007C6D3-4369-8D3C-A6D8-8F3C1CD9E1DE' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 5223 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +35ms bulkGet { docs: 
+   [ { id: 'form:test-order',
+       rev: '6-ba8a110a52cfc09fd1f43f6f4a1f800d' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:test-order { open_revs: [ '6-ba8a110a52cfc09fd1f43f6f4a1f800d' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +33ms get success [ { ok: 
+     { _id: 'form:test-order',
+       _rev: '6-ba8a110a52cfc09fd1f43f6f4a1f800d',
+       type: 'form',
+       title: 'Test: Order',
+       internalId: 'test-order',
+       context: [Object],
+       _deleted: true,
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'form:test-order', docs: [Object] } ] }
+replication : paused
+Local doc count : 6
+so far : 427499 ms (7+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +3ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +12ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-7',
+  session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8',
+  history: 
+   [ { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 5397 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +18s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-7',
+  session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8',
+  history: 
+   [ { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' },
+     { last_seq: 2398,
+       session_id: 'F53E9CEA-9498-4AE3-8D4E-D2F535D002C0' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 5397 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +22ms bulkGet { docs: 
+   [ { id: 'form:assessment',
+       rev: '356-3e808319759d3ac0630e8d1cb9257fc3' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:assessment { open_revs: [ '356-3e808319759d3ac0630e8d1cb9257fc3' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +19ms get success [ { ok: 
+     { _id: 'form:assessment',
+       _rev: '356-3e808319759d3ac0630e8d1cb9257fc3',
+       type: 'form',
+       title: 'Assess Patient',
+       internalId: 'assessment',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:assessment', docs: [Object] } ] }
+replication : paused
+Local doc count : 7
+so far : 446331 ms (7+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +2s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +16ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-8',
+  session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53',
+  history: 
+   [ { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 5398 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +17s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-8',
+  session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53',
+  history: 
+   [ { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' },
+     { last_seq: 2429,
+       session_id: 'F96FA0A1-77AF-D25B-8734-10CD4A26F21A' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 5398 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +29ms allDocs { keys: [ 'form:assessment.xlsx' ], include_docs: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +12ms allDocs success { total_rows: 6886,
+  offset: 0,
+  rows: 
+   [ { id: 'form:assessment.xlsx',
+       key: 'form:assessment.xlsx',
+       value: [Object],
+       doc: [Object] } ] }
+replication : paused
+Local doc count : 8
+so far : 465587 ms (7+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +5ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +17ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-9',
+  session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57',
+  history: 
+   [ { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6097 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-9',
+  session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57',
+  history: 
+   [ { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' },
+     { last_seq: 2513,
+       session_id: '63ADD5AB-3EC4-C169-B3B2-A3BB54891449' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6097 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +15ms bulkGet { docs: 
+   [ { id: 'form:family_survey',
+       rev: '32-3f9d4b4ea7a9023d0206d7b0bdc9ba92' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:family_survey { open_revs: [ '32-3f9d4b4ea7a9023d0206d7b0bdc9ba92' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +19ms get success [ { ok: 
+     { _id: 'form:family_survey',
+       _rev: '32-3f9d4b4ea7a9023d0206d7b0bdc9ba92',
+       type: 'form',
+       title: 'Family Survey',
+       internalId: 'family_survey',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:family_survey', docs: [Object] } ] }
+replication : paused
+Local doc count : 9
+so far : 477095 ms (7+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +177ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +5ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +12ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-10',
+  session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676',
+  history: 
+   [ { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6107 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-10',
+  session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676',
+  history: 
+   [ { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' },
+     { last_seq: 5223,
+       session_id: '3EBEE061-E063-F2D9-BEF3-784F321E3D40' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6107 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +24ms bulkGet { docs: 
+   [ { id: 'form:assessment_follow_up',
+       rev: '164-9b4ccbc0e76910467f8e291e57d1b7e1' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:assessment_follow_up { open_revs: [ '164-9b4ccbc0e76910467f8e291e57d1b7e1' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +20ms get success [ { ok: 
+     { _id: 'form:assessment_follow_up',
+       _rev: '164-9b4ccbc0e76910467f8e291e57d1b7e1',
+       type: 'form',
+       title: 'Assessment Follow-Up',
+       internalId: 'assessment_follow_up',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:assessment_follow_up', docs: [Object] } ] }
+replication : paused
+Local doc count : 10
+so far : 487223 ms (8+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +884ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +5ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-11',
+  session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2',
+  history: 
+   [ { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6147 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +11s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +17ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-11',
+  session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2',
+  history: 
+   [ { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' },
+     { last_seq: 5397,
+       session_id: 'A8BAA930-3E66-1FB4-889A-F678AFD26CF8' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6147 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +23ms bulkGet { docs: 
+   [ { id: 'form:pregnancy_visit',
+       rev: '17-3da50be39333de22a65e0d962d74228e' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:pregnancy_visit { open_revs: [ '17-3da50be39333de22a65e0d962d74228e' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +35ms get success [ { ok: 
+     { _id: 'form:pregnancy_visit',
+       _rev: '17-3da50be39333de22a65e0d962d74228e',
+       type: 'form',
+       title: 'Pregnancy Visit',
+       internalId: 'pregnancy_visit',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:pregnancy_visit', docs: [Object] } ] }
+replication : paused
+Local doc count : 11
+so far : 499464 ms (8+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +651ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +5ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +26ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-12',
+  session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B',
+  history: 
+   [ { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6164 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-12',
+  session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B',
+  history: 
+   [ { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' },
+     { last_seq: 5398,
+       session_id: 'E76B3CFE-C81D-1E02-86C3-1A2CF57ECA53' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6164 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +15ms bulkGet { docs: 
+   [ { id: 'form:pregnancy_referral_follow_up',
+       rev: '17-1d6f3b436e9910585739733475abba20' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:pregnancy_referral_follow_up { open_revs: [ '17-1d6f3b436e9910585739733475abba20' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +16ms get success [ { ok: 
+     { _id: 'form:pregnancy_referral_follow_up',
+       _rev: '17-1d6f3b436e9910585739733475abba20',
+       type: 'form',
+       title: 'Pregnancy Referral Follow-Up',
+       internalId: 'pregnancy_referral_follow_up',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'form:pregnancy_referral_follow_up', docs: [Object] } ] }
+replication : paused
+Local doc count : 12
+so far : 510274 ms (8+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +3ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +14ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-13',
+  session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2',
+  history: 
+   [ { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6244 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +8s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +20ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-13',
+  session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2',
+  history: 
+   [ { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' },
+     { last_seq: 6097,
+       session_id: 'E44D4985-8A10-CB1C-A8F4-490FD6895C57' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6244 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +20ms bulkGet { docs: 
+   [ { id: 'form:pregnancy',
+       rev: '623-e548067533eb65b4f30470c621c0c0cf' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:pregnancy { open_revs: [ '623-e548067533eb65b4f30470c621c0c0cf' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +29ms get success [ { ok: 
+     { _id: 'form:pregnancy',
+       _rev: '623-e548067533eb65b4f30470c621c0c0cf',
+       type: 'form',
+       title: 'New Pregnancy',
+       internalId: 'pregnancy',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:pregnancy', docs: [Object] } ] }
+replication : paused
+Local doc count : 13
+so far : 519621 ms (8+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +942ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +18ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-14',
+  session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7',
+  history: 
+   [ { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6260 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +22ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-14',
+  session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7',
+  history: 
+   [ { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' },
+     { last_seq: 6107,
+       session_id: '4C6485D0-EC43-0D63-A652-1DDC29371676' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6260 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +28ms bulkGet { docs: 
+   [ { id: 'form:contact:clinic:create',
+       rev: '202-d0d3844489f5df9f26560b63074bb011' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:contact:clinic:create { open_revs: [ '202-d0d3844489f5df9f26560b63074bb011' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +29ms get success [ { ok: 
+     { _id: 'form:contact:clinic:create',
+       _rev: '202-d0d3844489f5df9f26560b63074bb011',
+       type: 'form',
+       title: 'Add Family',
+       internalId: 'family',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'form:contact:clinic:create', docs: [Object] } ] }
+replication : paused
+Local doc count : 14
+so far : 528049 ms (8+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +49ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +12ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-15',
+  session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C',
+  history: 
+   [ { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6299 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +15ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-15',
+  session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C',
+  history: 
+   [ { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' },
+     { last_seq: 6147,
+       session_id: '8169FA21-0B84-BC36-856C-BA28BFFA52F2' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6299 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +22ms bulkGet { docs: 
+   [ { id: 'form:postnatal_care',
+       rev: '75-4ca6ca5493911cd412cc0ccde88c36a9' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:postnatal_care { open_revs: [ '75-4ca6ca5493911cd412cc0ccde88c36a9' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +20ms get success [ { ok: 
+     { _id: 'form:postnatal_care',
+       _rev: '75-4ca6ca5493911cd412cc0ccde88c36a9',
+       type: 'form',
+       title: 'Newborn Visit',
+       internalId: 'postnatal_care',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'form:postnatal_care', docs: [Object] } ] }
+replication : paused
+Local doc count : 15
+so far : 535038 ms (8+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +603ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +5ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-16',
+  session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8',
+  history: 
+   [ { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6370 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-16',
+  session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8',
+  history: 
+   [ { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' },
+     { last_seq: 6164,
+       session_id: 'D8F4050A-C76F-48C7-8315-81A8313C4F4B' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6370 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +25ms bulkGet { docs: 
+   [ { id: 'form:test_order',
+       rev: '122-09c1df2ff067d6f71cd5a61cfd2de83d' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:test_order { open_revs: [ '122-09c1df2ff067d6f71cd5a61cfd2de83d' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +22ms get success [ { ok: 
+     { _id: 'form:test_order',
+       _rev: '122-09c1df2ff067d6f71cd5a61cfd2de83d',
+       type: 'form',
+       title: 'Test: Order',
+       internalId: 'test_order',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:test_order', docs: [Object] } ] }
+replication : paused
+Local doc count : 16
+so far : 543093 ms (9+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +823ms id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-17',
+  session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B',
+  history: 
+   [ { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6371 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +16ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-17',
+  session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B',
+  history: 
+   [ { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' },
+     { last_seq: 6244,
+       session_id: 'E25A4EBC-5F11-F41B-90B8-DB0B06B06AE2' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6371 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +13ms bulkGet { docs: 
+   [ { id: 'form:contact:person:create',
+       rev: '187-2b5b482bdaf6051be53c490a586ca1b6' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:contact:person:create { open_revs: [ '187-2b5b482bdaf6051be53c490a586ca1b6' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +23ms get success [ { ok: 
+     { _id: 'form:contact:person:create',
+       _rev: '187-2b5b482bdaf6051be53c490a586ca1b6',
+       type: 'form',
+       title: 'Add Person',
+       internalId: 'person',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:contact:person:create', docs: [Object] } ] }
+replication : paused
+Local doc count : 17
+so far : 550624 ms (9+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +12ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-18',
+  session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E',
+  history: 
+   [ { last_seq: 6420,
+       session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E' },
+     { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6420 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +18ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-18',
+  session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E',
+  history: 
+   [ { last_seq: 6420,
+       session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E' },
+     { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' },
+     { last_seq: 6260,
+       session_id: '0CE61E6A-6551-2BED-B64B-5372E5C61CA7' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6420 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +27ms bulkGet { docs: 
+   [ { id: 'form:contact:person:edit',
+       rev: '2-3093a4ea4cf5dd2b93a6278a523be467' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get form:contact:person:edit { open_revs: [ '2-3093a4ea4cf5dd2b93a6278a523be467' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +20ms get success [ { ok: 
+     { _id: 'form:contact:person:edit',
+       _rev: '2-3093a4ea4cf5dd2b93a6278a523be467',
+       type: 'form',
+       title: 'Edit Person',
+       internalId: 'person',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms bulkGet success { results: [ { id: 'form:contact:person:edit', docs: [Object] } ] }
+replication : paused
+Local doc count : 18
+so far : 558234 ms (9+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +7ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +1ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-19',
+  session_id: 'ABB73F45-5B45-B43D-BE6B-579CE853BF0E',
+  history: 
+   [ { last_seq: 6445,
+       session_id: 'ABB73F45-5B45-B43D-BE6B-579CE853BF0E' },
+     { last_seq: 6420,
+       session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E' },
+     { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6445 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +17ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-19',
+  session_id: 'ABB73F45-5B45-B43D-BE6B-579CE853BF0E',
+  history: 
+   [ { last_seq: 6445,
+       session_id: 'ABB73F45-5B45-B43D-BE6B-579CE853BF0E' },
+     { last_seq: 6420,
+       session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E' },
+     { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' },
+     { last_seq: 6299,
+       session_id: 'EB1A6B61-F7CB-4BA7-B7E3-4BFB8329295C' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6445 }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +31ms bulkGet { docs: 
+   [ { id: 'form:contact:clinic:edit',
+       rev: '2-aa2868e53e850c5cf28e793949c81020' } ],
+  revs: true,
+  attachments: true,
+  binary: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get form:contact:clinic:edit { open_revs: [ '2-aa2868e53e850c5cf28e793949c81020' ],
+  revs: true,
+  attachments: true }
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +29ms get success [ { ok: 
+     { _id: 'form:contact:clinic:edit',
+       _rev: '2-aa2868e53e850c5cf28e793949c81020',
+       type: 'form',
+       title: 'Edit Family',
+       internalId: 'family',
+       context: [Object],
+       _revisions: [Object],
+       _attachments: [Object] } } ]
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms bulkGet success { results: [ { id: 'form:contact:clinic:edit', docs: [Object] } ] }
+replication : paused
+Local doc count : 19
+so far : 565713 ms (9+ minutes)
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +2s id
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +4ms id success 0ff9259c5cd5d4482478d6cf9528f2e3lgmedic-copy
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +0ms get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +10ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-20',
+  session_id: '3A48E24D-CF96-D855-A63E-D991D52A9806',
+  history: 
+   [ { last_seq: 6446,
+       session_id: '3A48E24D-CF96-D855-A63E-D991D52A9806' },
+     { last_seq: 6445,
+       session_id: 'ABB73F45-5B45-B43D-BE6B-579CE853BF0E' },
+     { last_seq: 6420,
+       session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E' },
+     { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6446 }
+replication : active
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +6s get _local/vNikmS5nuj8BEOnrdj451w==
+  pouchdb:api http://admin:pass@localhost:5984/lgmedic-copy +16ms get success { _id: '_local/vNikmS5nuj8BEOnrdj451w==',
+  _rev: '0-20',
+  session_id: '3A48E24D-CF96-D855-A63E-D991D52A9806',
+  history: 
+   [ { last_seq: 6446,
+       session_id: '3A48E24D-CF96-D855-A63E-D991D52A9806' },
+     { last_seq: 6445,
+       session_id: 'ABB73F45-5B45-B43D-BE6B-579CE853BF0E' },
+     { last_seq: 6420,
+       session_id: '8D6B387D-886B-B533-B3A6-B6428090A02E' },
+     { last_seq: 6371,
+       session_id: '5B4015EF-7A8C-4C56-A191-C685CA497E9B' },
+     { last_seq: 6370,
+       session_id: 'D69F5C68-5F76-D7F8-93D6-B9EE2879FCD8' } ],
+  replicator: 'pouchdb',
+  version: 1,
+  last_seq: 6446 }
+replication : paused
+
+
+Sync complete : 1452551862968 - 14:37:42.968
+Total time : 573390 ms
+Local doc count : 19
+so far : 573390 ms (9+ minutes)
